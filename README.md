@@ -1,5 +1,9 @@
 # react-native-sensor-fusion
 
+by [cawfree](https://github.com/cawfree/react-native-sensor-fusion)
+
+## This repo is a modification of react-native-sensor-fusion in order to make it work with the Expo framework. Implementation is still the same, the rest of the Readme is left the same
+
 Robust absolute 3D positioning in React Native, using [sensor fusion](https://en.wikipedia.org/wiki/Sensor_fusion) to exploit the superior characterstics of the device Accelerometer, Gyroscope and Magnetometer, whilst mitigating against their negative qualities.
 
 Physical data acquisition is implemented using [react-native-sensors](https://github.com/react-native-sensors/). The noise in sampled data is filtered from the input signals using the high quality [kalmanjs](https://github.com/wouterbulten/kalmanjs), and sensor fusion is calculated using [ahrs](https://github.com/psiphi75/ahrs).
